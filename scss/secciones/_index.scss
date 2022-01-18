@@ -1,0 +1,18 @@
+p{
+    color:red;
+}
+// ventaja de anidación
+.contenedor{
+    background-color: $azul;
+    font-family: $font-family;
+    .titulo{
+        color: violet;
+
+        &:hover{
+            background-color: white;
+        }
+    }
+    &:hover{
+        background-color: coral;
+    }
+}
