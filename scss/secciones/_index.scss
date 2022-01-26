@@ -1,18 +1,61 @@
-p{
-    color:red;
-}
-// ventaja de anidación
-.contenedor{
-    background-color: $azul;
-    font-family: $font-family;
-    .titulo{
-        color: violet;
+main {
+    display: inline;
 
-        &:hover{
-            background-color: white;
+    h1 {
+        text-align: center;
+        font-family: $font-family;
+        font-size: 8vh;
+        color: $color-texto;
+        animation-duration: 3s;
+        animation-name: aparecer;
+
+    }
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
         }
     }
-    &:hover{
-        background-color: coral;
+
+    p {
+        color:$color-secundario;
+        text-align: center;
+        font-size: 4vh;
+        animation-duration: 3s;
+        animation-name: aparecer2;
     }
+
+    @keyframes aparecer2 {
+        0% {
+            opacity: 0;
+        }
+    
+        50% {
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
+
+    div {
+        justify-content: space-between;
+
+        img {
+            height: 50vh;
+            width: 30vw;
+            margin-left: 2vw;
+        }
+        iframe{
+            height: 30vh;
+            width: 25vw;
+            margin-left:15vw; 
+        }
+    }
+
+   
 }

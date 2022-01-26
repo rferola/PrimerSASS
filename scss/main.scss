@@ -1,6 +1,10 @@
-// Las variables van siempre arriba de todo
+// Estas son las variables que voy a utilizar
 @import './variables/colores';
 @import './variables/fuentes';
 
-@import './utilidades/header';
+// Estas son las importaciones de las páginas
 @import './secciones/index';
+
+// Páginas de las utilidades
+@import './utilidades/header';
+@import './utilidades/footer';

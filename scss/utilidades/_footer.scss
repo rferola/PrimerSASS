@@ -1,0 +1,11 @@
+footer{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-fondo;
+    img{
+        height: 6vh;
+        width: 5vw;
+    }
+}
